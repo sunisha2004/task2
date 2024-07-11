@@ -1,0 +1,58 @@
+.div2{
+    color: white;
+    background-color: orange;
+}
+.div{
+    text-align: center;
+}
+.form{
+    background-color:black;
+    text-align: center;
+}
+.Name{
+    color: greenyellow;
+}
+.name2{
+    color: greenyellow;
+}
+.date{
+    color: greenyellow;
+}
+.Gender{
+    color: greenyellow;
+}
+.Male{
+    color: greenyellow;
+}
+.Female{
+    color: greenyellow;
+}
+.country{
+
+    color: greenyellow;
+}
+.email{
+    color: greenyellow;
+}
+.phone{
+    color: greenyellow;
+}
+.password{
+    color: greenyellow;
+}
+.cpassword{
+    color: greenyellow;
+}
+.checkbox{
+    color: greenyellow;
+}
+.submit{
+    background-color: green;
+}
+.cancel{
+    background-color: red;
+}
+.form2{
+    background-color: orange;
+    text-align: end;
+}
