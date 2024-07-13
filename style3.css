@@ -1,0 +1,41 @@
+.circle-div {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border-radius: 50%;
+}
+body{
+    background-color: black;
+}
+
+
+.navbar {
+    
+    background-color:#0f1111;
+    padding-bottom: 60px;
+    border: 5px solid white; 
+}
+.amazone{
+    font-size: 25px;color: orange;
+}
+.Account{
+    padding-left: 200px;
+    color: white;
+
+}
+.mycart{
+    padding-left: 200px;
+    color: white;
+
+}
+.contact{
+    padding-left: 200px;
+    color: white;
+    margin-right: 200px;
+
+}
+
+.button{
+    background-color: #f08804;
+
+}
