@@ -149,18 +149,22 @@ width: 80px;
 border-radius: 30px;
 border: 1px solid blue;
 }
+.mac-btn2:hover{
+    background-color: #0071e3;
+}
 
-.container-5{
+.container-4{
     display: flex;
     height: 600px;
     width: 90vw;
     margin: auto;
-    justify-content:space-evenly;
+    justify-content: space-between;
+
 }
 .imgclr-2{
     background-color: black;
-    height: 300px;
-    width: 626px;
+    height: 199px;
+    width: 660px;
     color: white;
     text-align: center;
 }
@@ -243,7 +247,7 @@ width: 130px;
     height: 600px;
     width: 90vw;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .imgclr-5{
     /* background-color:black; */
@@ -291,4 +295,41 @@ width: 700px;
 color: white;
     text-align: center;
 
+}
+
+footer{
+    font-size: 12px;
+    color: #000000B8;
+}
+.footer1-1{
+    display:inline-flex;
+    padding: 10px;
+    gap: 5px;
+    
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+.mainlist{
+    padding-bottom: 14px;
+}
+li{
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+footer a{
+    color: #0071E3;
+    text-decoration: underline;
+}
+.foosec2{
+    text-align: left;
+}
+.footpar{
+    display: flex;
+}
+.footset1{
+    width: 1000px;
+    height: 540px;
+    margin: auto;
 }
