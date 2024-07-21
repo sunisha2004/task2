@@ -11,6 +11,7 @@ nav{
 
 }
 
+
 span{
     padding: 30px;
     
@@ -21,6 +22,90 @@ nav img{
     width: 20px;
     border-right: 30px;
     margin-left: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+section{
+    position: absolute;
+    width: 100%;
+}
+.storel1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.storel{
+    color: rgb(186, 178, 236);
+}
+.storel1-1{
+    padding-top: 10px;
+    font-weight: 100;
+}
+.secstore{
+    display: flex;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    padding-left: 260px;
+}
+.sstore:hover ~ .secstore1{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.smac:hover ~ .secstore2{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.sipad:hover ~ .secstore3{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.siphone:hover ~ .secstore4{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.swatch:hover ~ .secstore5{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.svision:hover ~ .secstore6{
+    visibility: visible;
+    opacity: 1;
+    height: 350px;
+}
+.sair:hover ~ .secstore7{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.stv:hover ~ .secstore8{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.sen:hover ~ .secstore9{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.sacc:hover ~ .secstore10{
+    visibility: visible;
+    opacity: 1;
+    height: 430px;
+}
+.ssu:hover ~ .secstore11{
+    visibility: visible;
+    opacity: 1;
+    height:430px;
 }
 .container{
     
