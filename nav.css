@@ -7,8 +7,8 @@ img{
     width: 100%;
 }
 .img{
-    width: 35px;
-    height: 40px;
+    width:16px;
+    height: 20px;
 }
 nav{
     background-color: black;
@@ -30,6 +30,7 @@ select{
     border: none;
     margin-right: 40px;
     padding: 3px;
+    font-size: 9px;
 }
 .adress-section{
     display: flex;
@@ -40,18 +41,18 @@ select{
     padding: 5px 5px 5px 10px;
 }
 .adress-section span{
-    font-size: 10px;
+    font-size: 8px;
 }
 .adress-section a{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 
 }
 .right-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 9px;
     padding: 5px;
 }
 .right-sub-section{
