@@ -259,3 +259,45 @@ select{
     margin-left: 10px;
 
 }
+.section6{
+    height: 500px;
+    width: 100%;
+    background: url(./image/as-image-bg_2x.jpeg);
+    /* background-color: aqua; */
+}
+.sec6-1{
+    background-color: gold;
+    height: 280px;
+    width: 600px;
+    /* display: flex; */
+    margin-left: 730px;
+    border-radius: 10px;
+    /* padding-top: 300px; */
+    column-gap: 20px;
+}
+.sec6-1-1{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    margin-left: 72px;
+}
+.sec6-txt{
+    height: 70px;
+    width: 400px;
+    /* display: flex; */
+    padding-top: 50px;
+    margin-left: 72px;
+
+}
+.sec6-txt1{
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0e3051;
+}
+.sec6-txt2{
+    font-family: Cabin;
+    font-weight: 400;
+    font-size: 20px;
+}
