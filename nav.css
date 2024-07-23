@@ -67,33 +67,195 @@ select{
 }
 
 .nav2{
-    background-color: black;
+    background-color:rgb(246, 243, 243);
     color: black;
-    display: flex;
-    justify-content:space-between;
     align-items: center;
+    height: 60px;
     /* padding: 0px 5px 0px 10px; */
 
 }
 
-.nav2 img {
-    width:90px;
-    height: 50px;
-    position: absolute;
-    margin: auto;
-    justify-content: space-evenly;
+.nav2 .logo {
+    width: 148px;
+    height: 58px;
+    padding-left: 20px;
+    /* position: absolute; */
+    /* margin: auto; */
+}
+.nav2-sections{
+    padding: 23px 0px 10px 35px;
 }
 .nav2-sections span{
-    padding:10px 0px 10px 25px;
-    /* display:flex; */
-    justify-content: center;
-    align-items: center;
-
-    
+    font-size: 16px;
+    padding-left: 5px;
+    /* justify-content: space-between; */
 }
 .nav2-left-section{
     padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.nav2-sections a{
+    text-decoration: none;
+}
+.search{
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.search input{
+    border: none;
+    border-bottom: 2px solid black;
 
+}
+.icon{
+    width: 200px;
+    height: 45px;
+    background-color: yellow;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.icon-text{
+    padding-top: 7px;
+}
+
+.adityabirla{
+    width: 70px;
+    height: 50px;
+}
+.section2{
+    display: flex;
+}
+.sec-sale{
+    /* background-color: aqua; */
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.sec-men{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.sec-women{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.sec-boy{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.sec-girl{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.sec-gift{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.section3{
+    background-color:rgb(249,231,159);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+.app{
+    display: flex;
 }
 
 
+.sec3-txt1{
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #0e3051;
+    /* margin-top: 23px; */
+    /* margin-bottom: 3px; */
+}
+.sec3-txt2{
+    display: flex;
+    gap: 5px;
+
+}
+.asap{
+    border: 2px dashed black;
+    width: 105px;
+    height: 24px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    background-color:gold;
+}
+.sec3-flex{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.sec4-txt1{
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #0e3051;
+}
+.sec4-txt{
+    text-align: center;
+}
+.section5{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+.sec5-2{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+}
+.sec5-2-1{
+    width: 400px;
+    height: 280px;
+    background-color: #fefbea;
+    margin-top: 70px;
+}
+.sec5-2-txt{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    height: 50px;
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.sec5-box1{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.sec5-box2{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+    padding-top: 20px;
+}
+.box{
+    height: 45px;
+    width: 165px;
+    border-radius:10px ;
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    text-align: center;
+    margin-left: 10px;
+
+}
