@@ -86,7 +86,7 @@ select{
     padding: 23px 0px 10px 35px;
 }
 .nav2-sections span{
-    font-size: 16px;
+    font-size: 12px;
     padding-left: 5px;
     /* justify-content: space-between; */
 }
@@ -179,8 +179,6 @@ select{
     font-family: Inter;
     font-weight: 700;
     color: #0e3051;
-    /* margin-top: 23px; */
-    /* margin-bottom: 3px; */
 }
 .sec3-txt2{
     display: flex;
@@ -199,7 +197,7 @@ select{
 }
 .sec3-flex{
     display: flex;
-    /* justify-content: space-evenly; */
+    
 }
 .sec4-txt1{
     font-size: 28px;
@@ -263,12 +261,14 @@ select{
     height: 500px;
     width: 100%;
     background: url(./image/as-image-bg_2x.jpeg);
+    align-content: center;
+    background-repeat: no-repeat;
     /* background-color: aqua; */
 }
 .sec6-1{
     background-color: gold;
     height: 280px;
-    width: 600px;
+    width: 560px;
     /* display: flex; */
     margin-left: 730px;
     border-radius: 10px;
@@ -304,4 +304,48 @@ select{
 .sec6-btn{
     margin-left: 200px;
 
+}
+.scetion7{
+    height: 90px;
+    width: 2500px;
+    background-color: #0e3051;
+}
+.scetion7 button{
+    color: #0e3051;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius:10px;
+    background-color: gold;
+    font-weight: 700px;
+    font-size: 12px;
+    font-family: inter;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+.sec7{
+    display: flex;
+    height: 80px;
+    width: 800px;
+    justify-content: center;
+    margin-left: 400px;
+}
+.sec7-txt{
+    padding-top: 25px;
+}
+.section8{
+    height: 160px;
+    width: 2560px;
+    background-color: gold;
+}
+.sec8{
+    display: flex;
+    background-color: aqua;
+    height: 160px;
+    width: 400px;
+
+}
+.sec8-txt{
+    padding-top: 80px;
 }
