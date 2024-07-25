@@ -338,14 +338,52 @@ select{
     height: 160px;
     width: 2560px;
     background-color: gold;
+    align-content: center;
+}
+.sec8-0{
+    display: flex;
 }
 .sec8{
     display: flex;
-    background-color: aqua;
     height: 160px;
-    width: 400px;
+    width: 500px;
+    justify-content: center;
+    margin-left: 400px;
 
 }
 .sec8-txt{
+    width: 400px;
     padding-top: 80px;
+}
+ .sec8-1{
+    height: 80px;
+    width: 450px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.section9{
+    display: flex;
+    justify-content: space-around;
+}
+.section10{
+    padding-top: 20px;
+}
+.sec10{
+    margin-left: 100px;
+}
+.sec10-lst1{
+    height: 185px;
+    width: 303px;
+    
+}
+.sec10-lst2{
+    height: 185px;
+    width: 303px;
+
+}
+.sec10{
+    display: flex;
+}
+.section11{
+    margin-left: 50px;
 }
