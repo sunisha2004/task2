@@ -2,120 +2,57 @@
     margin: 0;
     padding: 0;
 }
-.first-main{
+.main{
     width: 90vw;
-    height: 50vh;
-    /* background-color: aqua; */
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap: 10px; 
+    gap: 5px; 
     margin: auto;
 }
-.box{
-    display: flex;
-    justify-content: center;
-}
+
 .box img{
-    width: 320px;
-    height: 320px;
+    width: 240px;
+    height: 240px;
     border-radius: 10px;
 }
 
-.second-main{
-    width: 90vw;
-    height: 50vh;
-    padding-top: 290px;
-    display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap: 10px;
-    justify-content: center;
-    margin: auto;
-}
-.box02{
-    display: flex;
-}
-.box02 img{
-    width: 320px;
-    height: 320px;
-    border-radius: 10px;
-
-}
 @media only screen and (max-width:550px){
-    .first-main{
+    .main{
         display: grid;
         margin: auto;
     }
 }
 @media only screen and (min-width:550px) and (max-width:950px){
-    .first-main{
+    .main{
         display: grid;
         grid-template-columns:1fr 1fr ;
     }
 
 }
 @media only screen and (min-width:950px) and (max-width:1128px){
-    .first-main{
+    .main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media only screen and (min-width:1128px) and (max-width:1640px){
-    .first-main{
+    .main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 @media only screen and (min-width:1640px) and (max-width:1880px){
-    .first-main{
+    .main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     
 }
 @media only screen and (min-width:1880px){
-    .first-main{
+    .main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
-@media only screen and (max-width:550px){
-    .second-main{
-        display: grid;
-        margin: auto;
-    }
-}
-@media only screen and (min-width:550px) and (max-width:950px){
-    .second-main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media only screen and (min-width:950px) and (max-width:1128px){
-    .second-main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media only screen and (min-width:1128px) and (max-width:1640px){
-    .second-main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-@media only screen and (min-width:1640px) and (max-width:1880px){
-    .second-main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-}
-@media only screen and (min-width:1640px) and (max-width:1880px){
-    .second-main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-    
-}
+
 
 
 
