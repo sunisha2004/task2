@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
+
+    
 }
+
 
 .nav1 img{
     width: 100%;
@@ -167,6 +171,9 @@ select{
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
+    /* position: fixed; */
+   
+  
 
 }
 .app{
