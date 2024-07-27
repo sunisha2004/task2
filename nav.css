@@ -314,7 +314,7 @@ select{
 }
 .scetion7{
     height: 90px;
-    width: 2500px;
+    width:100%;
     background-color: #0e3051;
 }
 .scetion7 button{
@@ -343,7 +343,7 @@ select{
 }
 .section8{
     height: 160px;
-    width: 2560px;
+    width: 100%;
     background-color: gold;
     align-content: center;
 }
