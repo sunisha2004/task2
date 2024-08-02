@@ -23,6 +23,13 @@
     margin-right: 50px;
     align-items: center;
 }
+.section1_2{
+    width: 850px;
+    height: 70px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 1px solid black;
+}
 .main{
     width: 90vw;
     column-gap: 5px;
